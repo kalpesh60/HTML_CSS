@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: row;
+            margin: 0;
+            font-weight: bold;
+            text-align: justify;
+            background: blue;
+        }
+        
+        .col-1 {
+            background: #D7E8D4;
+            flex: 1;
+        }
+        
+        .col-2 {
+            display: flex;
+            flex-direction: column;
+            flex: 5;
+        }
+        
+        .content {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .content>article {
+            flex: 3;
+            min-height: 60vh;
+        }
+        
+        .content>aside {
+            background: beige;
+            flex: 1;
+        }
+        
+        header {
+            background: yellowgreen;
+            height: 20vh;
+            text-align: center;
+            font-weight: bold;
+            font-size: x-large;
+        }
+        
+        footer {
+            background: tomato;
+            height: 20vh;
+            text-align: center;
+            font-weight: bold;
+            font-size: x-large;
+        }
+        
+        header,
+        footer,
+        article,
+        nav,
+        aside {
+            padding: 1em;
+            border: rgb(31, 24, 24) solid 2px;
+        }
+        
+        article {
+            padding: 5px;
+            margin: 5px;
+            background: aqua;
+        }
+        
+        li {
+            text-align: left;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="col-1">
+        <ul>
+            <h4>Importance of Sports--</h4>
+            <li>Essay</li>
+            <li>Article</li>
+            <li>Note</li>
+            <li>Short Note</li>
+            <li>Speech</li>
+        </ul>
+    </nav>
+    <div class="col-2">
+        <header>Header - Sports Importance</header>
+        <main class="content">
+            <article>
+                <H1>Article-1</H1>Sports are very important for one’s life and participation in sports should always be encouraged. Participation in sports makes us active, healthy, fit, and also the development of our social and communication skills.The
+                most common saying “Healthy mind lives in Healthy body” is so true because for a man to be successful his physical, as well as mental state, should be well.</article>
+            <article>
+                <H1>Article-2</H1>The most common saying “Healthy mind lives in Healthy body” is so true because for a man to be successful his physical, as well as mental state, should be well. Sports are the greater source of recreation. Sports remove stress
+                and provide relaxation to our mind and body</article>
+            <aside>
+                <h3>Sports</h3>
+                <li>Football</li>
+                <li>baseball</li>
+                <li>Tennis</li>
+                <li>Cricket</li>
+            </aside>
+        </main>
+        <footer>sports and games are very important for our body</footer>
+    </div>
+</body>
+
+</html>
