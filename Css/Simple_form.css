@@ -8,6 +8,7 @@ body {
     max-width: 600px;
     margin: 0px auto;
     padding: 2em;
+    background-color: rgb(230, 225, 225);
 }
 
 .headerContainer {
@@ -51,6 +52,8 @@ button {
     width: 70%;
     margin: 0 auto;
     cursor: pointer;
+    border: black 2px solid;
+    border-radius: 5px;
 }
 
 error-output {
